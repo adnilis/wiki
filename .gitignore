@@ -1,0 +1,19 @@
+# Rust
+/target
+/dist
+
+# Python verification caches
+__pycache__/
+*.py[cod]
+
+# Local working files (not part of the published source)
+AGENTS.md
+CLAUDE.md
+.sisyphus/
+dev-notes/
+docs/
+.wiki/
+.vs/
+.ce/
+.ce/index.db
+docs/log.md
