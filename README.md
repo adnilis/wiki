@@ -393,19 +393,6 @@ cargo test
 
 The test suite covers initialization, reading, literal and regex search, incremental indexing, Graph-RAG retrieval, source-aware answering, Harness contracts, SDD responses and verification evidence, lifecycle transitions, and archive moves.
 
-## Compatibility with `fastctx`
-
-This CLI re-implements the wiki capabilities of [`fastctx`](https://github.com/yc-duan/fastctx) as a standalone binary:
-
-| `fastctx` capability | `wiki` command |
-| --- | --- |
-| `wiki_init` | `wiki init` |
-| `wiki_read` | `wiki read` |
-| `wiki_search` | `wiki search` |
-| `fastctx init knowledge` | `wiki init --dir docs --force` |
-
-The seed layout, knowledge-area conventions, `## [YYYY-MM-DD]` log prefix, and `[[wiki-link]]` summary rendering are kept compatible with the original wiki workflow.
-
 ## License
 
 MIT OR Apache-2.0

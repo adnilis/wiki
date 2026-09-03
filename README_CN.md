@@ -392,19 +392,6 @@ cargo test
 
 测试覆盖初始化、读取、字面与正则搜索、增量索引、Graph-RAG、来源约束回答、Harness 协议、SDD 响应与验证证据、生命周期流转和归档移动。
 
-## 与 `fastctx` 的兼容关系
-
-本 CLI 将 [`fastctx`](https://github.com/yc-duan/fastctx) 中的 wiki 能力重新实现为独立二进制：
-
-| `fastctx` 能力 | `wiki` 命令 |
-| --- | --- |
-| `wiki_init` | `wiki init` |
-| `wiki_read` | `wiki read` |
-| `wiki_search` | `wiki search` |
-| `fastctx init knowledge` | `wiki init --dir docs --force` |
-
-种子布局、知识区约定、`## [YYYY-MM-DD]` 日志前缀和 `[[wiki-link]]` 摘要渲染保持兼容。
-
 ## License
 
 MIT OR Apache-2.0
